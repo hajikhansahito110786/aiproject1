@@ -21,6 +21,7 @@ const sidebars: SidebarsConfig = {
       label: 'Chapters',
       items: [
         'chapters/01-introduction/index',
+        'chapters/02-mathematical-foundations/index',
       ],
     },
     {
