@@ -22,6 +22,14 @@ const sidebars: SidebarsConfig = {
       items: [
         'chapters/01-introduction/index',
         'chapters/02-mathematical-foundations/index',
+        'chapters/03-robot-kinematics-dynamics/index',
+        'chapters/04-sensor-systems-perception/index',
+        'chapters/05-motion-planning-control/index',
+        'chapters/06-ai-algorithms-embodiment/index',
+        'chapters/07-humanoid-robotics-platforms/index',
+        'chapters/08-safety-ethics-societal-impact/index',
+        'chapters/09-case-studies-applications/index',
+        'chapters/10-future-research-directions/index',
       ],
     },
     {
