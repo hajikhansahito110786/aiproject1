@@ -13,12 +13,12 @@ const config: Config = {
   url: 'https://hajikhansahito110786.github.io',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/physicalAIbook/',
+    baseUrl: '/aibook2/',
   
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'hajikhansahito110786', // Usually your GitHub org/user name.
-    projectName: 'physicalAIbook', // Usually your repo name.
+    projectName: 'aibook2', // Usually your repo name.
   
     onBrokenLinks: 'throw',
   
@@ -40,7 +40,7 @@ const config: Config = {
             // Please change this to your repo.
             // Remove this to remove the "edit this page" links.
             editUrl:
-              'https://github.com/hajikhansahito110786/physicalAIbook/tree/main/',
+              'https://github.com/hajikhansahito110786/aibook2/tree/main/',
           },
           blog: {
             showReadingTime: true,
@@ -51,7 +51,7 @@ const config: Config = {
             // Please change this to your repo.
             // Remove this to remove the "edit this page" links.
             editUrl:
-              'https://github.com/hajikhansahito110786/physicalAIbook/tree/main/',
+              'https://github.com/hajikhansahito110786/aibook2/tree/main/',
             // Useful options to enforce blogging best practices
             onInlineTags: 'warn',
             onInlineAuthors: 'warn',
@@ -81,9 +81,9 @@ const config: Config = {
         {name: 'og:title', content: 'Physical AI & Humanoid Robotics - An Open Source Textbook'},
         {name: 'og:description', content: 'An open-source textbook on Physical AI and Humanoid Robotics, covering fundamental concepts, advanced topics, and practical applications.'},
         {name: 'og:type', content: 'website'},
-        {name: 'og:image', content: 'https://hajikhansahito110786.github.io/physicalAIbook/img/docusaurus-social-card.jpg'},
+        {name: 'og:image', content: 'https://hajikhansahito110786.github.io/aibook2/img/docusaurus-social-card.jpg'},
         {name: 'twitter:card', content: 'summary_large_image'},
-        {name: 'twitter:image', content: 'https://hajikhansahito110786.github.io/physicalAIbook/img/docusaurus-social-card.jpg'},
+        {name: 'twitter:image', content: 'https://hajikhansahito110786.github.io/aibook2/img/docusaurus-social-card.jpg'},
       ],
       colorMode: {
         respectPrefersColorScheme: true,
@@ -103,7 +103,7 @@ const config: Config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/hajikhansahito110786/physicalAIbook',
+            href: 'https://github.com/hajikhansahito110786/aibook2',
             label: 'GitHub',
             position: 'right',
           },
@@ -147,7 +147,7 @@ const config: Config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/hajikhansahito110786/physicalAIbook',
+                href: 'https://github.com/hajikhansahito110786/aibook2',
               },
             ],
           },
