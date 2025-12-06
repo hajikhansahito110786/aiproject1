@@ -11,147 +11,145 @@ const config: Config = {
 
   // Set the production url of your site here
   url: 'https://hajikhansahito110786.github.io',
-    // Set the /<baseUrl>/ pathname under which your site is served
-    // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/aibook2/',
-  
-    // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'hajikhansahito110786', // Usually your GitHub org/user name.
-    projectName: 'aibook2', // Usually your repo name.
-  
-    onBrokenLinks: 'throw',
-  
-    // Even if you don't use internationalization, you can use this field to set
-    // useful metadata like html lang. For example, if your site is Chinese, you
-    // may want to replace "en" with "zh-Hans".
-    i18n: {
-      defaultLocale: 'en',
-      locales: ['en'],
-    },
-  
-    presets: [
-      ['classic',
-        {
-          docs: {
-            sidebarPath: './sidebars.ts',
-            remarkPlugins: [require('remark-math')],
-            rehypePlugins: [require('rehype-katex')],
-            // Please change this to your repo.
-            // Remove this to remove the "edit this page" links.
-            editUrl:
-              'https://github.com/hajikhansahito110786/aibook2/tree/main/',
-          },
-          blog: {
-            showReadingTime: true,
-            feedOptions: {
-              type: ['rss', 'atom'],
-              xslt: true,
-            },
-            // Please change this to your repo.
-            // Remove this to remove the "edit this page" links.
-            editUrl:
-              'https://github.com/hajikhansahito110786/aibook2/tree/main/',
-            // Useful options to enforce blogging best practices
-            onInlineTags: 'warn',
-            onInlineAuthors: 'warn',
-            onUntruncatedBlogPosts: 'warn',
-          },
-          theme: {
-            customCss: './src/css/custom.css',
-          },
-        } satisfies Preset.Options,
-      ],
-    ],
-  
-    stylesheets: [
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: '/aiproject1/',
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'hajikhansahito110786', // Usually your GitHub org/user name.
+  projectName: 'aiproject1', // Usually your repo name.
+
+  onBrokenLinks: 'throw',
+
+  // Even if you don't use internationalization, you can use this field to set
+  // useful metadata like html lang. For example, if your site is Chinese, you
+  // may want to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
+  presets: [
+    ['classic',
       {
-        href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-        type: 'text/css',
-        integrity: 'sha384-AwFNzSTdDKNFE/u/E9/QfL2U+yQoP2fK6uB1fE5BwI5+K/qD+A/e7B3w/Bf+D/e'
-      },
-    ],
-  
-    themeConfig: {
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
-      metadata: [
-        {name: 'keywords', content: 'physical AI, humanoid robotics, textbook, open source'},
-        {name: 'description', content: 'An open-source textbook on Physical AI and Humanoid Robotics, covering fundamental concepts, advanced topics, and practical applications.'},
-        {name: 'og:title', content: 'Physical AI & Humanoid Robotics - An Open Source Textbook'},
-        {name: 'og:description', content: 'An open-source textbook on Physical AI and Humanoid Robotics, covering fundamental concepts, advanced topics, and practical applications.'},
-        {name: 'og:type', content: 'website'},
-        {name: 'og:image', content: 'https://hajikhansahito110786.github.io/aibook2/img/docusaurus-social-card.jpg'},
-        {name: 'twitter:card', content: 'summary_large_image'},
-        {name: 'twitter:image', content: 'https://hajikhansahito110786.github.io/aibook2/img/docusaurus-social-card.jpg'},
-      ],
-      colorMode: {
-        respectPrefersColorScheme: true,
-      },
-      navbar: {
-        title: 'Physical AI & Humanoid Robotics',
-        logo: {
-          alt: 'Physical AI & Humanoid Robotics Logo',
-          src: 'img/logo.svg',
+        docs: {
+          sidebarPath: './sidebars.ts',
+          remarkPlugins: [require('remark-math')],
+          rehypePlugins: [require('rehype-katex')],
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/hajikhansahito110786/aiproject1/tree/main/',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Textbook',
+        blog: {
+          showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/hajikhansahito110786/aibook2',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/hajikhansahito110786/aiproject1/tree/main/',
+          // Useful options to enforce blogging best practices
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
+        },
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      } satisfies Preset.Options,
+    ],
+  ],
+
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity: 'sha384-AwFNzSTdDKNFE/u/E9/QfL2U+yQoP2fK6uB1fE5BwI5+K/qD+A/e7B3w/Bf+D/e'
+    },
+  ],
+
+  themeConfig: {
+    // Replace with your project's social card
+    image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      {name: 'keywords', content: 'physical AI, humanoid robotics, textbook, open source'},
+      {name: 'description', content: 'An open-source textbook on Physical AI and Humanoid Robotics, covering fundamental concepts, advanced topics, and practical applications.'},
+      {name: 'og:title', content: 'Physical AI & Humanoid Robotics - An Open Source Textbook'},
+      {name: 'og:description', content: 'An open-source textbook on Physical AI and Humanoid Robotics, covering fundamental concepts, advanced topics, and practical applications.'},
+      {name: 'og:type', content: 'website'},
+      {name: 'og:image', content: 'https://hajikhansahito110786.github.io/aiproject1/img/docusaurus-social-card.jpg'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:image', content: 'https://hajikhansahito110786.github.io/aiproject1/img/docusaurus-social-card.jpg'},
+    ],
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
+    navbar: {
+      title: 'Physical AI & Humanoid Robotics',
+      logo: {
+        alt: 'Physical AI & Humanoid Robotics Logo',
+        src: 'img/logo.svg',
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Textbook',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/hajikhansahito110786/aibook2',
-              },
-            ],
-          },
-        ],
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Textbook',
+        },
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://github.com/hajikhansahito110786/aiproject1',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Docs',
+          items: [
+            {n              label: 'Textbook',
+              to: '/docs/intro',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/docusaurus',
+            },
+            {
+              label: 'X',
+              href: 'https://twitter.com/docusaurus',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/hajikhansahito110786/aiproject1',
+            },
+          ],
+        },
         copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics. Built with Docusaurus.`,
       },
       prism: {
