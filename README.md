@@ -8,7 +8,10 @@ This textbook aims to provide a comprehensive resource for students, researchers
 
 ## Live Site
 
-The live version of this textbook is available at: [https://your-github-username.github.io/gemini/](https://your-github-username.github.io/gemini/)
+The live version of this textbook is available at: ## Live Site
+
+The live version of this textbook is available at:  
+[https://hajikhansahito110786.github.io/aiproject1/](https://hajikhansahito110786.github.io/aiproject1/)
 
 ## Contributing
 
