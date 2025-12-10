@@ -31,11 +31,10 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-- [ ] **Principle I: Spec-Driven Development**: Does a `spec.md` exist and is it approved?
-- [ ] **Principle II: Atomic, Testable Tasks**: Does the spec break down into clear, testable user stories and requirements?
-- [ ] **Principle III: Agent-First Workflow**: Is the proposed interface designed for programmatic use (e.g., structured I/O, clear exit codes)?
-- [ ] **Principle V: Convention Over Configuration**: Does the proposed file structure adhere to project conventions?
-- [ ] **Development Standards**: Is the proposed change the smallest viable change, avoiding unrelated refactoring?
+- [ ] **Principle I: Uncompromising Code Quality**: Does the proposed design prioritize clarity, maintainability, and adherence to style guides?
+- [ ] **Principle II: Rigorous & Automated Testing**: Does the spec include a clear strategy for unit, integration, or E2E testing?
+- [ ] **Principle III: Consistent User Experience**: If user-facing, does the proposal align with existing UI/CLI patterns and conventions?
+- [ ] **Principle IV: Performance as a Feature**: Are performance requirements defined and is there a plan to measure them?
 
 ## Project Structure
 
